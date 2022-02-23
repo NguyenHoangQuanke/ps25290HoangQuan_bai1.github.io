@@ -1,0 +1,123 @@
+    body {
+        margin: 0px;
+        padding: 0px;
+    }
+    
+    a {
+        text-decoration: none;
+        color: rgb(14, 1, 1);
+    }
+    
+    .container {
+        width: 100%;
+        min-height: 100vh;
+        display: flex;
+        flex-wrap: wrap;
+        justify-content: center;
+        align-items: center;
+        background-image: url(../Anh/nendangnhap.jpg);
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+    
+    .box {
+        background-color: #ffffff4a;
+        /* background: linear-gradient(0deg, #dd2, #234); */
+        width: 500px;
+        height: 600px;
+        border: none;
+        border-radius: 20px;
+        text-align: center;
+        padding: 50px;
+        box-sizing: border-box;
+    }
+    
+    img {
+        width: 100%;
+    }
+    
+    .form-control {
+        text-align: center;
+    }
+    
+    input {
+        width: 100%;
+        font-size: 20px;
+        font-family: inherit;
+        background-color: #ffffff !important;
+        margin: 10px 0px;
+        padding: 10px 60px;
+        border: none;
+    }
+    
+    input#taikhoan {
+        background: url(../Anh/icondangnhap.png) no-repeat 15px center;
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    
+    input#Email {
+        background: url(../Anh/icondangnhap.png) no-repeat 15px center;
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    
+    input#sodienthoai {
+        background: url(../Anh/icondangnhap.png) no-repeat 15px center;
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    
+    input#matkhau {
+        background: url(../Anh/iconpass.png) no-repeat 15px center;
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    
+    input#nhaplaimk {
+        background: url(../Anh/iconpass.png) no-repeat 15px center;
+        padding-left: 60px;
+        box-sizing: border-box;
+    }
+    
+    button {
+        width: 100%;
+        border: none;
+        font-size: 25px;
+        margin-top: 10px;
+        padding: 10px;
+        font-size: 24px;
+        padding: 15px 70px;
+        background-color: rgb(220, 220, 44);
+        border: none;
+        border-radius: 10px;
+        color: aliceblue;
+    }
+    
+    button:hover {
+        width: 100%;
+        border: none;
+        font-size: 25px;
+        margin-top: 10px;
+        padding: 10px;
+        padding: 15px 70px;
+        background-color: rgb(255, 255, 0);
+        border: none;
+        border-radius: 10px;
+        color: black;
+    }
+    
+    .dacotk {
+        text-align: center;
+        margin-top: 10px;
+    }
+    
+    .dacotk>span {
+        float: left;
+        padding-left: 10px;
+    }
+    
+    .dacotk>a {
+        float: right;
+        padding-right: 10px;
+    }

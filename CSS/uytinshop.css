@@ -1,0 +1,46 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+.container {
+    width: 100%;
+    min-height: 100vh;
+    padding: 0px;
+    background-image: url(../Anh/nendangnhap.jpg);
+    background-repeat: no-repeat;
+    background-position: center;
+    background-size: cover;
+}
+
+h1,
+h3 {
+    margin-top: 0px;
+    padding-top: 10px;
+    padding-left: 10px;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+}
+
+.box {
+    padding: 10px;
+    width: 650px;
+    box-sizing: border-box;
+}
+
+a {
+    text-align: right;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+}
+
+a:hover {
+    text-align: right;
+    text-decoration: none;
+    font-family: "Roboto Condensed", sans-serif;
+    font-weight: bolder;
+    padding: 10px;
+    color: brown;
+}
